@@ -17,5 +17,5 @@ x.sort()
 y.sort()
 sums = 0
 for i in range(len(x)):
-    sums += abs(x[i]-y[i])
+    sums += abs(x[i] - y[i])
 print(sums)

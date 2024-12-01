@@ -16,7 +16,5 @@ print(y)
 
 ans = 0
 for i in x:
-    ans += (y.count(i) * i)
+    ans += y.count(i) * i
 print(ans)
-
-

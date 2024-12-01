@@ -21,8 +21,8 @@ This repository organizes solutions by day, with each day having two parts.
 ```
 
 - Each folder (e.g., `Day_1`) contains:
-  - **`parta.py`**: Script for solving Part 1 of the day's puzzle.
-  - **`part2bpy`**: Script for solving Part 2 of the day's puzzle.
+  - **`part_a.py`**: Script for solving Part 1 of the day's puzzle.
+  - **`part_b.py`**: Script for solving Part 2 of the day's puzzle.
   - **`input.txt`**: The input data for that day.
 
 ## 🛠️ Requirements

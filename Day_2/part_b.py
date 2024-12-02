@@ -19,7 +19,7 @@ def dmp_check(report):
     if check(report):
         return True
     for loop in range(len(report)):
-        modified = report[:loop] + report[loop + 1:]
+        modified = report[:loop] + report[loop + 1 :]
         if check(modified):
             return True
 

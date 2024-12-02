@@ -18,7 +18,10 @@ def check(report):
     inc = all(report[loop] < report[loop + 1] for loop in range(len(report) - 1))
     dec = all(report[loop] > report[loop + 1] for loop in range(len(report) - 1))
 
-    valid = all(1 <= abs(report[loop] - report[loop + 1]) <= 3 for loop in range(len(report) - 1))
+    valid = all(
+        1 <= abs(report[loop] - report[loop + 1]) <= 3
+        for loop in range(len(report) - 1)
+    )
 
     return (inc or dec) and valid
 
